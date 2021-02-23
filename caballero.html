@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es-MX">
+
+<head>
+
+	<!--===========================================
+	=            Etiquetas Meta                   =
+	= No se ven directamente en la pagina, pero   = 
+	= sirven para encontrar la pagina en los      =
+	= buscadores web							  =
+	============================================-->
+
+	<meta charset="utf-8">
+
+	<meta name="author" content="Gilver_Dk555">
+
+	<meta name="description" content="Nos especializamos en el diseño, elaboración y venta de ropa de todo tipo: deportiva, interior, entre otros">
+
+	<meta name="keywords" content="Tienda, Ropa, Compra, Ropa interior, Higiene, Salud, Cubebocas, mascara, Venta de ropa, Boxer, Ropa interior, Caballero, Ropa interior para caballero">
+
+	<!--===========================================
+	= Etiqueta Meta para diseño web responsivo    =
+	============================================-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--==========================================
+	=             Enlaces y Scripts              =
+	= Icono en la pestaña de la pagina			 =
+	= Fuente de Internet                         =
+	= Hojas de estilo                            =
+	= Hojas de estilo de Bootstrap				 =
+	= JQUERY									 =
+	===========================================-->
+
+	<link rel="icon" href="img/logo-3419889_1920.png">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<title>Yo soy todo</title>
+
+</head>
+
+<body>
+	<!--=====================================
+	=               Bootstrap               =
+	======================================-->
+
+	<!--=====================================
+	=               Contenedor              =
+	======================================-->
+
+	<div class="container-fluid">
+
+		<!--=====================================
+		=                Cabezote               =
+		======================================-->
+		
+		<header class="row">
+			<div id="logo" class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+				<img class="img-fluid" src="img/logo_ver2.png" width="500px" height="500px">
+			</div>
+			<div id="leyenda" class="col-lg-8 col-md-9 col-sm-8 col-xs-12"> 
+					<h1> Yo soy todo en diseño y confección </h1>
+			</div>
+		</header>
+
+		<!--=====================================
+		=                Botonera               =
+		======================================-->
+
+		<nav id="botonera" class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<form class="form-inline" action="/action_page.php">
+				<input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="Busqueda">
+				<button class="btn btn-success" type="submit">Buscar</button>
+			</form>
+			<ul class="navbar-nav">
+				<li class="nav-item"> 
+					<a class="nav-link" href="index.html"> Inicio </a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link disabled" href="a"> Dama</a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="caballero.html"> Caballero </a></li>
+				<li class="nav-item"> 
+					<a class="nav-link disabled" href="a"> Higiene </a>
+				</li>
+			</ul>
+		</nav>
+		<br>
+
+		<!--=====================================
+		=            Seccion principal          =
+		======================================-->
+		<section class="row">
+			<aside class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+				<center>
+				<img class="img-fluid" src="img/Arte_boxer.jpg">
+				</center>
+			</aside>
+
+			<aside class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+				<!-- Comienza para PHP, sin el form la etiqueta de button no hace nada -->
+				<form action="formulario.php" method="post" target=_blank>
+					<h2> Boxer Infinity COTTONFRESS </h2>
+					<br>
+					<p> Estamos al pendiente de tu desempeño diario, por eso nos esforzamos en crear una linea de ropa interior acorde con tu rutina, la linea COTTONFRESS te ofrece además de su diseño, calidad y duración, una mayor frescura y máximo confort. 
+					</p>
+					<br>
+					<p> Precio por docena: $250 </p>
+					<br><br>
+					<button type="submit" class="btn btn-success"> 
+						<img src="img/carrito.png" class="mx-auto" alt="carrito.png" width="25" height="25"> 
+						Comprar
+					</button>
+				</form>
+			</aside>
+		</section>
+	</div>
+</body>
+
+</html>

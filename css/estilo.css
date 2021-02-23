@@ -1,0 +1,127 @@
+/*===============================================
+=   				Global					    =
+================================================*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+header
+{
+	margin:10px auto;
+}
+
+#logo
+{
+	position:relative;
+	font-family: 'Kaushan Script', cursive;
+	text-align:center;
+}
+
+#leyenda h1
+{
+	position: relative;
+	margin-top: 85px;
+	align-content: center;
+	font-family:'Kaushan Script',cursive;
+	font-size: 50px;
+	text-align: center;
+	line-height: 85px;
+}
+
+h1
+{
+	font-family: 'Kaushan Script';
+	font-size: 40px;
+	text-align: center;
+}
+
+h2
+{
+	font-family: 'Kaushan Script';
+	font-size: 35px;
+	text-align: center;	
+}
+
+p
+{
+	font-family: 'Verdana';
+	font-size: 25px;
+	text-align: justify;
+}
+
+/*===============================================
+=  		 	Estilos para Bootstrap              =
+= Puntos de quiebre que utiliza Bootstrap       =
+================================================*/
+
+/*===============================================
+=   Pantalla de escritorio Grande - Large (lg)  =
+================================================*/
+
+@media(min-width: 1200px)
+{
+	#leyenda h1
+	{
+		position: relative;
+		margin-top: 30px;
+		align-content: center;
+		font-family:'Kaushan Script',cursive;
+		font-size: 90px;
+		text-align: center;
+		line-height: 100px;
+	}
+}
+
+/*===================================================
+=   Pantalla de escritorio Mediano - Medium (md)    =
+===================================================*/
+
+@media(max-width: 1199px) and (min-width: 992px)
+{
+	#leyenda h1
+	{
+		position: relative;
+		margin-top: 0px;
+		align-content: center;
+		font-family:'Kaushan Script',cursive;
+		font-size: 50px;
+		text-align: center;
+		line-height: 85px;
+	}
+}
+
+/*==================================================
+=   Pantalla de tablet Chica - Small (sm)    	   =
+==================================================*/
+
+@media(max-width: 991px) and (min-width: 768px)
+{
+	#leyenda h1
+	{
+		position: relative;
+		margin-top: 0px;
+		align-content: center;
+		font-family:'Kaushan Script',cursive;
+		font-size: 40px;
+		text-align: center;
+		line-height: 85px;
+	}
+}
+
+/*=======================================================
+=   Pantalla de telefono extra chico - Extra small (xs) =
+=======================================================*/
+
+@media(max-width: 767px)
+{
+	#leyenda
+	{
+		display: none;
+	}
+
+}
